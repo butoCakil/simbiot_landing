@@ -232,11 +232,52 @@ function esc(str) {
 }
 
 // ----------------------------------------------------------------
+// Navbar — scroll behavior & active link
+// ----------------------------------------------------------------
+function initNavbar() {
+  const navbar   = document.getElementById('navbar');
+  const links    = document.querySelectorAll('.nav-link');
+  const toggle   = document.getElementById('navbar-toggle');
+  const menu     = document.getElementById('navbar-links');
+  const sections = ['home', 'tentang', 'platform', 'feedback'];
+
+  toggle?.addEventListener('click', () => menu.classList.toggle('open'));
+  links.forEach(l => l.addEventListener('click', () => menu.classList.remove('open')));
+
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 20);
+
+    let current = '';
+    for (const id of sections) {
+      const el = document.getElementById(id);
+      if (el && el.getBoundingClientRect().top <= 80) current = id;
+    }
+    links.forEach(l => l.classList.toggle('active', l.getAttribute('href') === `#${current}`));
+  }, { passive: true });
+}
+
+// ----------------------------------------------------------------
+// Back to Top
+// ----------------------------------------------------------------
+function initBackToTop() {
+  const btn = document.getElementById('back-to-top');
+  if (!btn) return;
+
+  window.addEventListener('scroll', () => {
+    btn.classList.toggle('visible', window.scrollY > 300);
+  }, { passive: true });
+
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+}
+
+// ----------------------------------------------------------------
 // Init
 // ----------------------------------------------------------------
 
 document.addEventListener('DOMContentLoaded', () => {
   new IoTCanvas('iot-canvas');
+  initNavbar();
+  initBackToTop();
   initFeedbackForm();
   loadFeedback();
 });

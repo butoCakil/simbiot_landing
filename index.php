@@ -7,12 +7,36 @@
   <meta property="og:title" content="SimbIoT — Simbiosis IoT &amp; Pendidikan">
   <meta property="og:description" content="Infrastruktur terbuka untuk eksplorasi IoT, pembelajaran adaptif, dan sistem tertanam pintar.">
   <title>SimbIoT — Simbiosis IoT &amp; Pendidikan</title>
+  <link rel="icon" type="image/png" href="assets/img/SimbioT_logo_v1.0_fav.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <button class="back-to-top" id="back-to-top" aria-label="Kembali ke atas">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+    <path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</button>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+<nav class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <!-- <a href="#home" class="navbar-logo">Simb<span class="accent">ioT</span></a> -->
+     <a href="#home" class="navbar-logo">
+      <img src="assets/img/SimbioT_logo_v1.0_200x60.png" alt="SimbIoT" height="36">
+    </a>
+    <button class="navbar-toggle" id="navbar-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="navbar-links" id="navbar-links">
+      <li><a href="#home"     class="nav-link">Beranda</a></li>
+      <li><a href="#tentang"  class="nav-link">Tentang</a></li>
+      <li><a href="#platform" class="nav-link">Platform</a></li>
+      <li><a href="#feedback" class="nav-link">Masukan</a></li>
+    </ul>
+  </div>
+</nav>
 
 <!-- ============================================================
      HERO
@@ -21,7 +45,8 @@
   <canvas id="iot-canvas"></canvas>
   <div class="hero-content">
     <div class="hero-badge">Platform Open · Non-Komersial · Komunitas</div>
-    <h1 class="hero-title">Simb<span class="accent">IoT</span></h1>
+    <!-- <h1 class="hero-title">Simb<span class="accent">ioT</span></h1> -->
+     <img src="assets/img/SimbioT_logo_v1.0_400x120.png" alt="SimbIoT" class="hero-logo">
     <p class="hero-tagline">Simbiosis IoT &amp; Pendidikan</p>
     <p class="hero-desc">
       Infrastruktur terbuka untuk eksplorasi IoT, pembelajaran adaptif,
@@ -47,7 +72,7 @@
   <div class="container">
     <div class="section-header">
       <span class="section-label">Tentang</span>
-      <h2 class="section-title">Apa itu SimbIoT?</h2>
+      <h2 class="section-title">Apa itu SimbioT?</h2>
     </div>
     <p class="about-desc">
       SimbIoT adalah infrastruktur cloud berbasis web yang menghubungkan sistem IoT fisik
@@ -209,7 +234,8 @@
   <div class="container">
     <div class="footer-inner">
       <div class="footer-brand">
-        <span class="footer-logo">Simb<span class="accent">IoT</span></span>
+        <!-- <span class="footer-logo">Simb<span class="accent">IoT</span></span> -->
+         <img src="assets/img/SimbioT_logo_v1.0_200x60.png" alt="SimbIoT" class="footer-logo-img">
         <p>Simbiosis IoT &amp; Pendidikan</p>
         <p class="footer-small">Non-komersial &middot; Open Community</p>
       </div>
