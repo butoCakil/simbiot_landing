@@ -8,8 +8,11 @@ require_once dirname(__DIR__) . '/config.php';
 $role_labels = [
     'siswa'           => 'Siswa',
     'guru'            => 'Guru / Pengajar',
-    'mahasiswa_dosen' => 'Mahasiswa / Dosen',
+    'mahasiswa'       => 'Mahasiswa',
+    'dosen'           => 'Dosen',
     'pengembang'      => 'Pengembang IoT',
+    'hobi'            => 'Hobi',
+    'lainnya'         => 'Lainnya',
 ];
 
 try {

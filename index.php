@@ -174,6 +174,7 @@
               <option value="dosen">Dosen</option>
               <option value="pengembang">Pengembang</option>
               <option value="hobi">Hobi</option>
+              <option value="lainnya">Lainnya</option>
             </select>
           </div>
           <div class="form-group">

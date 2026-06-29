@@ -1,4 +1,10 @@
 <?php
+// Blokir akses langsung ke file ini
+if (basename($_SERVER['SCRIPT_FILENAME']) === 'auth.php') {
+    http_response_code(403);
+    exit;
+}
+
 // admin/auth.php — Session, CSRF, dan koneksi DB untuk area admin
 
 require_once dirname(__DIR__) . '/config.php';
