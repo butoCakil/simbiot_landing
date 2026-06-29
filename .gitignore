@@ -1,0 +1,12 @@
+# Kredensial — jangan pernah di-commit
+config.php
+.vscode/sftp.json
+
+# Setup script
+setup.php
+
+# OS & editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

@@ -1,0 +1,21 @@
+# ================================================================
+# SimbIoT — .htaccess
+# ================================================================
+
+# Matikan directory listing
+Options -Indexes
+
+# Lindungi file sensitif dari akses publik
+<FilesMatch "^(config\.php|auth\.php)$">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+# Setelah setup selesai, uncomment baris ini untuk blokir setup.php:
+# <Files "setup.php">
+#   Order allow,deny
+#   Deny from all
+# </Files>
+
+# Karakter encoding default
+AddDefaultCharset UTF-8
