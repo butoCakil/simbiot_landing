@@ -112,56 +112,58 @@
     </div>
     <div class="apps-grid">
 
-      <a href="https://adlean.simbiot.id" target="_blank" rel="noopener" class="app-card">
+      <a href="https://adlean.simbiot.id" target="_blank" rel="noopener" class="app-card" id="card-adlean">
         <div class="app-icon">🎓</div>
         <div class="app-info">
           <h3>AdLearn</h3>
           <span class="app-sub">adlean.simbiot.id</span>
           <p>Platform E-Learning adaptif berbasis profil belajar siswa. Evaluasi otomatis dan rekomendasi konten sesuai gaya belajar.</p>
         </div>
-        <span class="app-badge badge-active">Aktif</span>
+        <span class="app-badge badge-active" id="badge-adlean">Aktif</span>
         <div class="app-arrow" aria-hidden="true">→</div>
       </a>
 
-      <a href="https://kitacatat.simbiot.id" target="_blank" rel="noopener" class="app-card">
-        <div class="app-icon">📝</div>
-        <div class="app-info">
-          <h3>KitaCatat</h3>
-          <span class="app-sub">kitacatat.simbiot.id</span>
-          <p>Pencatatan keuangan personal berbasis WhatsApp. Kirim pesan, data tersimpan otomatis dan terstruktur.</p>
-        </div>
-        <span class="app-badge badge-active">Aktif</span>
-        <div class="app-arrow" aria-hidden="true">→</div>
-      </a>
-
-      <div class="app-card app-card-soon" aria-label="Segera hadir">
+      <a href="https://broker.simbiot.id" target="_blank" rel="noopener" class="app-card" id="card-broker">
         <div class="app-icon">📡</div>
         <div class="app-info">
-          <h3>Broker Dashboard</h3>
+          <h3>Broker MQTT</h3>
           <span class="app-sub">broker.simbiot.id</span>
           <p>Manajemen webhook dan monitoring MQTT Broker X200MA. Kelola koneksi perangkat IoT dari satu tempat.</p>
         </div>
-        <span class="app-badge badge-soon">Segera Hadir</span>
-      </div>
-
-      <div class="app-card app-card-soon" aria-label="Segera hadir">
+        <span class="app-badge badge-active" id="badge-broker">Aktif</span>
+        <div class="app-arrow" aria-hidden="true">→</div>
+      </a>
+      
+      <a href="https://panel.simbiot.id/" target="_blank" rel="noopener" class="app-card" id="card-panel">
         <div class="app-icon">📊</div>
         <div class="app-info">
           <h3>IoT Panel</h3>
           <span class="app-sub">panel.simbiot.id</span>
           <p>Dashboard visualisasi data sensor real-time. Grafik, log, dan notifikasi dari perangkat ESP32 dan STM32.</p>
         </div>
-        <span class="app-badge badge-soon">Segera Hadir</span>
-      </div>
+        <span class="app-badge badge-active" id="badge-panel">Aktif</span>
+        <div class="app-arrow" aria-hidden="true">→</div>
+      </a>
 
-      <a href="https://ben.simbiot.id" target="_blank" rel="noopener" class="app-card">
+      <a href="https://kitacatat.simbiot.id" target="_blank" rel="noopener" class="app-card" id="card-kitacatat">
+        <div class="app-icon">📝</div>
+        <div class="app-info">
+          <h3>KitaCatat</h3>
+          <span class="app-sub">kitacatat.simbiot.id</span>
+          <p>Pencatatan keuangan personal berbasis WhatsApp. Kirim pesan, data tersimpan otomatis dan terstruktur.</p>
+        </div>
+        <span class="app-badge badge-active" id="badge-kitacatat">Aktif</span>
+        <div class="app-arrow" aria-hidden="true">→</div>
+      </a>
+
+      <a href="https://ben.simbiot.id" target="_blank" rel="noopener" class="app-card" id="card-ben">
         <div class="app-icon">✍️</div>
         <div class="app-info">
           <h3>Blog</h3>
           <span class="app-sub">ben.simbiot.id</span>
           <p>Catatan, riset, dan refleksi dari perjalanan membangun SimbIoT — ditulis oleh Benny Surahman.</p>
         </div>
-        <span class="app-badge badge-active">Aktif</span>
+        <span class="app-badge badge-active" id="badge-ben">Aktif</span>
         <div class="app-arrow" aria-hidden="true">→</div>
       </a>
 

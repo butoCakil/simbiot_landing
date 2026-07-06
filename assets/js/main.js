@@ -280,4 +280,44 @@ document.addEventListener('DOMContentLoaded', () => {
   initBackToTop();
   initFeedbackForm();
   loadFeedback();
+  checkStatus();
+  setInterval(checkStatus, 60000);
 });
+
+// ----------------------------------------------------------------
+// 4. Status checker — update badge & klik kartu
+// ----------------------------------------------------------------
+async function checkStatus() {
+  try {
+    const res  = await fetch('/api/status.php');
+    const data = await res.json();
+    if (!data.success) return;
+
+    const map = {
+      'adlean':    { card: 'card-adlean',    badge: 'badge-adlean' },
+      'kitacatat': { card: 'card-kitacatat', badge: 'badge-kitacatat' },
+      'broker':    { card: 'card-broker',    badge: 'badge-broker' },
+      'panel':     { card: 'card-panel',     badge: 'badge-panel' },
+      'ben':       { card: 'card-ben',       badge: 'badge-ben' },
+    };
+
+    for (const [key, ids] of Object.entries(map)) {
+      const active = data.status[key];
+      const card   = document.getElementById(ids.card);
+      const badge  = document.getElementById(ids.badge);
+      if (!card || !badge) continue;
+
+      if (active) {
+        badge.textContent      = 'Aktif';
+        badge.className        = 'app-badge badge-active';
+        card.style.pointerEvents = '';
+        card.style.opacity     = '';
+      } else {
+        badge.textContent      = 'Tidak Aktif';
+        badge.className        = 'app-badge badge-offline';
+        card.style.pointerEvents = 'none';
+        card.style.opacity     = '0.5';
+      }
+    }
+  } catch { /* silent fail */ }
+}

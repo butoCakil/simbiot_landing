@@ -400,6 +400,12 @@ a.app-card:hover::before { opacity: 1; }
   border: 1px solid rgba(245, 158, 11, 0.22);
 }
 
+.badge-offline {
+  background: rgba(100, 116, 139, 0.12);
+  color: #94a3b8;
+  border: 1px solid rgba(100, 116, 139, 0.25);
+}
+
 .app-arrow {
   position: absolute;
   right: 1.25rem;
