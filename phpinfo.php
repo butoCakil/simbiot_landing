@@ -1,1 +1,0 @@
-<?php echo function_exists('curl_init') ? 'curl OK' : 'curl TIDAK ADA'; ?>
