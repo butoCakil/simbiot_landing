@@ -150,9 +150,16 @@ $tab_labels = [
 </nav>
 
 <main class="main">
-  <div class="page-head">
-    <h1>Kelola Feedback</h1>
-    <a href="/" class="back-link">← Lihat Landing Page</a>
+  <div class="page-head" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
+    <h1 style="margin: 0;">Kelola Feedback</h1>
+    
+    <div style="display: flex; align-items: center; gap: 20px;">
+        <a href="/" class="back-link" style="margin: 0;">← Lihat Landing Page</a>
+        
+        <a href="apps.php" style="text-decoration: none; padding: 8px 16px; background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 8px; font-size: 0.9rem; font-weight: 600; display: flex; align-items: center; gap: 8px; transition: all 0.2s ease;">
+            📦 Kelola Aplikasi Store
+        </a>
+    </div>
   </div>
 
   <!-- Tab navigator -->

@@ -299,6 +299,7 @@ async function checkStatus() {
       'broker':    { card: 'card-broker',    badge: 'badge-broker' },
       'panel':     { card: 'card-panel',     badge: 'badge-panel' },
       'ben':       { card: 'card-ben',       badge: 'badge-ben' },
+      'simbion':   { card: 'card-simbion',   badge: 'badge-simbion' },
     };
 
     for (const [key, ids] of Object.entries(map)) {

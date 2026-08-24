@@ -12,6 +12,7 @@ $targets = [
     'broker'    => ['url' => 'https://broker.simbiot.id/api/public/status', 'type' => 'json', 'key' => 'broker.active'],
     'panel'     => ['url' => 'https://broker.simbiot.id/api/public/status', 'type' => 'json', 'key' => 'broker.active'],
     'ben'       => ['url' => 'https://ben.simbiot.id',       'type' => 'http'],
+    'simbion'   => ['url' => 'https://bion.simbiot.id',   'type' => 'http'],
 ];
 
 // ----------------------------------------------------------------

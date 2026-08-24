@@ -1,0 +1,70 @@
+[29-Jun-2026 05:39:30 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:39:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:41:08 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:41:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:41:10 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:41:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:41:27 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:41:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:41:30 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:41:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:42:35 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:42:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:46:47 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:46:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:46:50 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:46:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:47:34 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:47:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:48:41 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:48:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 5
+[29-Jun-2026 05:49:28 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 8
+[29-Jun-2026 05:49:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 8
+[29-Jun-2026 05:51:09 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 8
+[29-Jun-2026 05:51:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 8
+[29-Jun-2026 05:51:11 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 8
+[29-Jun-2026 05:51:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 8
+[29-Jun-2026 05:51:13 UTC] PHP Warning:  require_once(/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php): Failed to open stream: No such file or directory in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 8
+[29-Jun-2026 05:51:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dvttaulx/public_html/simbiot.masbendz.com/api/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dvttaulx/public_html/simbiot.masbendz.com/api/feedback.php on line 8

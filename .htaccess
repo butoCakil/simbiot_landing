@@ -11,12 +11,6 @@ Options -Indexes
   Deny from all
 </FilesMatch>
 
-# Setelah setup selesai, uncomment baris ini untuk blokir setup.php:
-# <Files "setup.php">
-#   Order allow,deny
-#   Deny from all
-# </Files>
-
 # Karakter encoding default
 AddDefaultCharset UTF-8
 
@@ -26,4 +20,28 @@ AddDefaultCharset UTF-8
   Header always set X-Frame-Options "SAMEORIGIN"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>
+
+# ================================================================
+# CLEAN URL CONFIGURATION (STORE)
+# ================================================================
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # 1. Alihkan akses langsung /store.php menjadi /store/
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\s/+store\.php[?\s] [NC]
+    RewriteRule ^store\.php$ /store/ [R=301,L]
+
+    # 2. Tangkap URL cantik /store/detail/<id> dan proses sebagai app.php?id=<id> secara senyap
+    RewriteRule ^store/detail/([0-9]+)/?$ app.php?id=$1 [L,QSA]
+
+    # 3. Cegat error 404 & alihkan otomatis /store/app.php?id=12 atau /app.php?id=12 menjadi URL cantik
+    RewriteCond %{ENV:REDIRECT_STATUS} ^$
+    RewriteCond %{QUERY_STRING} (?:^|&)id=([0-9]+)(?:&|$) [NC]
+    RewriteRule ^(store/)?app\.php$ /store/detail/%1? [R=301,L]
+
+    # 4. Sembunyikan ekstensi .php saat /store/ diakses, muat store.php
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^store/?$ store.php [L]
 </IfModule>

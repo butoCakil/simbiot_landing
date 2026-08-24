@@ -30,9 +30,10 @@
       <span></span><span></span><span></span>
     </button>
     <ul class="navbar-links" id="navbar-links">
-      <li><a href="#home"     class="nav-link">Beranda</a></li>
+      <li><a href="#home"    class="nav-link">Beranda</a></li>
       <li><a href="#tentang"  class="nav-link">Tentang</a></li>
       <li><a href="#platform" class="nav-link">Platform</a></li>
+      <li><a href="/store/"   class="nav-link" style="color: #38bdf8; font-weight: 600;">Store</a></li>
       <li><a href="#feedback" class="nav-link">Masukan</a></li>
     </ul>
   </div>
@@ -111,6 +112,17 @@
       <p class="section-sub">Semua layanan terintegrasi dalam satu domain</p>
     </div>
     <div class="apps-grid">
+      <!-- Kartu Store Baru -->
+      <a href="/store/" class="app-card" id="card-store" style="border-color: #38bdf850; background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);">
+        <div class="app-icon">🛍️</div>
+        <div class="app-info">
+          <h3>SimbIoT Store</h3>
+          <span class="app-sub">simbiot.id/store</span>
+          <p>Kumpulan berkas instalasi, modul skrip sistem tertanam (embedded), dan pustaka open-source untuk praktik.</p>
+        </div>
+        <span class="app-badge badge-active" style="background: rgba(56, 189, 248, 0.15); color: #38bdf8;">Etalase</span>
+        <div class="app-arrow" aria-hidden="true">→</div>
+      </a>
 
       <a href="https://adlean.simbiot.id" target="_blank" rel="noopener" class="app-card" id="card-adlean">
         <div class="app-icon">🎓</div>
@@ -120,6 +132,28 @@
           <p>Platform E-Learning adaptif berbasis profil belajar siswa. Evaluasi otomatis dan rekomendasi konten sesuai gaya belajar.</p>
         </div>
         <span class="app-badge badge-active" id="badge-adlean">Aktif</span>
+        <div class="app-arrow" aria-hidden="true">→</div>
+      </a>
+
+      <a href="https://bion.simbiot.id" target="_blank" rel="noopener" class="app-card" id="card-simbion">
+        <div class="app-icon">🎛️</div>
+        <div class="app-info">
+          <h3>Simbion</h3>
+          <span class="app-sub">bion.simbiot.id</span>
+          <p>Simulasi Lab Interaktif Elektronika untuk pembelajaran (DC, AC, Analog, dll) dengan alat ukur dan osiloskop CRO. Mandiri dan bekerja tanpa internet.</p>
+        </div>
+        <span class="app-badge badge-active" id="badge-simbion">Aktif</span>
+        <div class="app-arrow" aria-hidden="true">→</div>
+      </a>
+
+      <a href="https://ben.simbiot.id" target="_blank" rel="noopener" class="app-card" id="card-ben">
+        <div class="app-icon">✍️</div>
+        <div class="app-info">
+          <h3>Blog</h3>
+          <span class="app-sub">ben.simbiot.id</span>
+          <p>Catatan, riset, dan refleksi dari perjalanan membangun SimbIoT — ditulis oleh Benny Surahman.</p>
+        </div>
+        <span class="app-badge badge-active" id="badge-ben">Aktif</span>
         <div class="app-arrow" aria-hidden="true">→</div>
       </a>
 
@@ -153,17 +187,6 @@
           <p>Pencatatan keuangan personal berbasis WhatsApp. Kirim pesan, data tersimpan otomatis dan terstruktur.</p>
         </div>
         <span class="app-badge badge-active" id="badge-kitacatat">Aktif</span>
-        <div class="app-arrow" aria-hidden="true">→</div>
-      </a>
-
-      <a href="https://ben.simbiot.id" target="_blank" rel="noopener" class="app-card" id="card-ben">
-        <div class="app-icon">✍️</div>
-        <div class="app-info">
-          <h3>Blog</h3>
-          <span class="app-sub">ben.simbiot.id</span>
-          <p>Catatan, riset, dan refleksi dari perjalanan membangun SimbIoT — ditulis oleh Benny Surahman.</p>
-        </div>
-        <span class="app-badge badge-active" id="badge-ben">Aktif</span>
         <div class="app-arrow" aria-hidden="true">→</div>
       </a>
 
